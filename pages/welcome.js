@@ -26,12 +26,6 @@ export default function Welcome() {
     fetchProfile();
   }, []);
 
-  useEffect(() => {
-    if (user && profile) {
-      router.replace('/welcome');
-    }
-  }, [user, profile, router]);
-
   if (loading) return <div style={{textAlign: 'center', marginTop: 64}}>Loading...</div>;
 
   if (!user || !profile) {

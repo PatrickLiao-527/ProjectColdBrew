@@ -23,7 +23,9 @@ export default function OnboardingWelcome() {
     const { error } = await supabase.auth.signInWithOAuth({
       provider,
       options: {
-        redirectTo: typeof window !== 'undefined' ? `${window.location.origin}/onboarding` : undefined,
+        redirectTo: typeof window !== 'undefined'
+          ? `${window.location.origin}/welcome`
+          : undefined,
       },
     });
     if (error) alert('OAuth login failed: ' + error.message);
