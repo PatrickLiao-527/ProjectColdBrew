@@ -1,0 +1,76 @@
+:root {
+  --color-main-bulma: #000000;
+  --color-main-trunks: #595D62;
+  --color-main-beerus: #E2E2E2;
+  --color-main-gohan: #FFFFFF;
+  --color-accent-brown: #6F6658;
+  --color-accent-gold: #E3C694;
+  --color-accent-coffee: #85674C;
+
+  --font-family-main: 'DM Sans', sans-serif;
+
+  --font-size-heading: 72px;
+  --font-size-subheading: 32px;
+  --font-size-body: 18px;
+
+  --font-weight-bold: 700;
+  --font-weight-normal: 400;
+
+  --line-height-heading: 76px;
+  --line-height-subheading: 40px;
+
+  --letter-spacing-heading: -2.5px;
+  --letter-spacing-subheading: -0.5px;
+
+  --border-radius: 8px;
+  --button-padding: 20px 36px;
+  --button-border: 3px solid rgba(89, 93, 93, 0.2);
+
+  /* Main Colors */
+  --color-piccolo: #5A5ADC;
+  --color-jiren: #3B3566;
+  --color-hit: #5AB3B3;
+  --color-heles: #F5F5F5;
+  --color-beerus: #E2E2E2;
+  --color-goku: #F6F6F6;
+  --color-gohan: #FFFFFF;
+  --color-zeno: #7A7A7A;
+  --color-bulma: #000000;
+  --color-trunks: #595D62;
+  --color-goten: #FFFFFF;
+  --color-popo: #000000;
+
+  /* Supportive Colors */
+  --color-krillin: #FFD600;
+  --color-chichi: #FF6F61;
+  --color-dodoria: #D32F2F;
+  --color-cell: #A7FFEB;
+  --color-whis: #536DFE;
+  --color-frieza: #7C4DFF;
+  --color-roshi: #388E3C;
+  --color-raditz: #BCA16B;
+  --color-nappa: #795548;
+
+  /* Spacing */
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+
+  /* Grid */
+  --container-max-width: 1328px;
+  --gutter-16: 16px;
+  --gutter-24: 24px;
+  --gutter-32: 32px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(60,60,60,0.07);
+  --shadow-md: 0 2px 4px 0 rgba(60,60,60,0.10);
+  --shadow-lg: 0 4px 8px 0 rgba(60,60,60,0.13);
+  --shadow-xl: 0 8px 16px 0 rgba(60,60,60,0.16);
+} 

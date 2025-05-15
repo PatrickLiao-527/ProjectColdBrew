@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+@import './theme.css';
+
+body {
+  font-family: var(--font-family-main);
+  background: var(--color-main-gohan);
+  color: var(--color-main-trunks);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: var(--font-size-heading);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-heading);
+  letter-spacing: var(--letter-spacing-heading);
+  color: var(--color-accent-gold);
+}
+
+h1 .brand {
+  color: var(--color-accent-coffee);
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-main);
+  color: var(--color-main-bulma);
+}
+
+button {
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-subheading);
+  font-weight: var(--font-weight-bold);
+  border-radius: var(--border-radius);
+  padding: var(--button-padding);
+  border: var(--button-border);
+  background: var(--color-accent-gold);
+  color: var(--color-main-bulma);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button.secondary {
+  background: var(--color-accent-brown);
+  color: var(--color-main-gohan);
+} 

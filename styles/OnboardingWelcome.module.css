@@ -1,0 +1,87 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-main-gohan);
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  width: 100%;
+  padding: var(--space-40);
+  box-shadow: var(--shadow-md);
+  border-radius: var(--border-radius);
+  background: var(--color-main-gohan);
+}
+
+.icon {
+  margin-bottom: var(--space-24);
+}
+
+.welcomeHeading {
+  font-family: var(--font-family-main);
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: -2.5px;
+  margin: 0;
+  text-align: center;
+  white-space: nowrap;
+  margin-bottom: var(--space-32);
+}
+
+.gold {
+  color: #E3C694;
+}
+.coffee {
+  color: #85674C;
+}
+
+.subtitle {
+  color: rgba(111, 102, 88, 0.7);
+  font-size: 2rem;
+  font-family: var(--font-family-main);
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 281px 0;
+}
+
+.buttonRow {
+  display: flex;
+  gap: var(--space-16);
+  margin-top: var(--space-16);
+}
+
+.dualButtonRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+  margin-top: var(--space-16);
+}
+
+@media (max-width: 600px) {
+  .centered {
+    padding: var(--space-16);
+  }
+  .buttonRow {
+    flex-direction: column;
+    width: 100%;
+    gap: var(--space-12);
+  }
+  .dualButtonRow {
+    flex-direction: column;
+    gap: var(--space-12);
+    width: 100%;
+  }
+  /* Use this class for full-width buttons on mobile */
+  .fullWidthButton {
+    width: 100%;
+  }
+} 

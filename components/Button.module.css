@@ -1,0 +1,43 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 16px 16px 16px 24px;
+  border: 1px solid #595D62;
+  font-family: var(--font-family-main);
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  outline: none;
+  gap: 16px;
+}
+
+.primary {
+  background: var(--color-accent-gold);
+  color: var(--color-main-bulma);
+}
+
+.secondary {
+  background: var(--color-accent-brown);
+  color: var(--color-main-gohan);
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  display: inline-block;
+}
+
+.primary:hover,
+.secondary:hover {
+  background: var(--color-heles);
+} 
