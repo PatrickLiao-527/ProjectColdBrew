@@ -1,0 +1,119 @@
+.loginContainer {
+  width: 428px;
+  padding: 32px 24px;
+  border: 1px solid #E2E2E2;
+  border-radius: 8px;
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  box-sizing: border-box;
+}
+
+.title {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #6B5B4A;
+  margin-bottom: 24px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.input {
+  width: 100%;
+  padding: 16px 12px;
+  border: 1px solid #E2E2E2;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'DM Sans', sans-serif;
+  background: #FFF;
+  color: #000;
+  box-sizing: border-box;
+}
+
+.passwordWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.showBtn {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #6B5B4A;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.loginBtn {
+  width: 100%;
+  padding: 12px 0;
+  background: #6B5B4A;
+  color: #FFF;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600;
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.loginBtn:hover {
+  background: #8F6B58;
+}
+
+.socialDivider {
+  height: 8px;
+}
+
+.socialBtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: 1px solid #E2E2E2;
+  background: #FFF;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: background 0.2s, border 0.2s;
+}
+.socialBtn:hover {
+  background: #F6F6F6;
+  border-color: #CFCFCF;
+}
+
+.signupRow {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+  font-family: 'DM Sans', sans-serif;
+}
+.signupLink {
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 4px;
+  cursor: pointer;
+}
+.signupLink:hover {
+  text-decoration: underline;
+} 
